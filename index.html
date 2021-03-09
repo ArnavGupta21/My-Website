@@ -199,27 +199,24 @@
 
                         <form autocomplete="off">
                         <div class="input-container">
-                          <input type="text" name="name" class="input" required />
+                          <input type="text" name="name" class="input" required>
                           <label for="">Username</label>
                            <span>Username</span>
                         </div>
                         <br>
                         <div class="input-container">
-                          <input type="email" name="email" class="input" />
+                          <input type="email" name="email" class="input" required>
                           <label for="">Email</label>
                           <span>Email</span>
                         </div>
                         <br>
                         <div class="input-container textarea">
-                          <textarea name="message" class="input"></textarea>
+                          <textarea name="message" class="input" required></textarea>
                           <label for="">Message</label>
                           <span>Message</span>
                         </div>
-                        
+                        <input type="submit" value="Send" class="btn" onclick="sendEmail()">
                       </form> 
-            <form method="post">
-                <input type="button" value="Send" class="btn" onclick="sendEmail()">
-            </form>
             </div>
 
         </div>
